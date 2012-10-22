@@ -4,6 +4,7 @@ SampleApp::Application.routes.draw do
 
   get "contact", to: "pages#contact", as: :contact
 
+  get "about", to: "pages#about", as: :about
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
